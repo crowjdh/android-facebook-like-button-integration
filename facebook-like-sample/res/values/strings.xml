@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">facebook-like-sample</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_fblike">FBLikeActivity</string>
+    <string name="btn_auth">login</string>
+    <string name="btn_like">like</string>
+    <!-- <string name="activity_fblike">activity_fblike</string> -->
+    
+    <string name="display_follow_id_prefix">ID of the user to follow : </string>
+    <string name="display_like_prefix">Am I following? : </string>
+    <string name="display_username_prefix">User name : </string>
+    <string name="display_followlist">You are following :\n\n</string>
+    <string name="display_following">Following</string>
+    <string name="display_unfollowing">Unfollowing</string>
+    
+    <string name="liked">Fan</string>
+    <string name="unliked">Unfan</string>
+
+</resources>

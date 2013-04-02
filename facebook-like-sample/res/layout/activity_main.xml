@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/follow_to_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        style="@style/DisplayingText"
+        tools:context=".MainActivity" />
+    <TextView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/follow_to_id"
+        android:layout_alignLeft="@id/follow_to_id"
+        style="@style/DisplayingText"
+        tools:context=".MainActivity" />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/like"
+        android:layout_alignLeft="@id/like"
+        style="@style/DisplayingText"
+        tools:context=".MainActivity" />
+    
+    <TextView
+        android:id="@+id/likes_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        style="@style/DisplayingText"
+        tools:context=".MainActivity" />
+    <com.yooiistudios.chris.facebook_like_sample.facebook.FacebookAuthButton
+        android:id="@+id/btn_auth"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:background="#a02a8a"/>
+    <Button
+        android:id="@+id/btn_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_auth"
+        android:layout_alignRight="@id/btn_auth"
+        android:text="@string/btn_like"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
