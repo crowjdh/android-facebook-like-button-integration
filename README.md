@@ -22,4 +22,5 @@ Preparing(on Eclipse)
     https://developers.facebook.com/docs/guides/appcenter/#authorization.<br>
 
 
-If you have a question, please <a href='crowjdh@gmail.com'>mail me</a>.
+If you have a question, please mail me.<br>
+crowjdh@gmail.com
