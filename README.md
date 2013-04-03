@@ -20,3 +20,6 @@ Preparing(on Eclipse)
   3. You have to add a permission "user_like" to fetch user's like list.<br>
     For detail information, see  below.<br>
     https://developers.facebook.com/docs/guides/appcenter/#authorization.<br>
+
+
+If you have a question, please <a href='crowjdh@gmail.com'>mail me</a>.
